@@ -1,17 +1,18 @@
 import React from 'react';
-import binocular from '@/assets/icons/professionals/binocular.svg';
-import commission from '@/assets/icons/professionals/commission.svg';
-import money from '@/assets/icons/professionals/money.svg';
+import flash from '@/assets/icons/professionals/flash.svg';
+import bell from '@/assets/icons/professionals/bell.svg';
+import sort from '@/assets/icons/professionals/sort.svg';
+import timer from '@/assets/icons/professionals/timer.svg';
 import IconListItem from '../../../components/IconListItem';
 import left_overlap from '/images/professinals/left_overlap.png' 
 import right_overlap from '/images/professinals/right_overlap.png' 
 
 
 const listItems = [
-  { icon: binocular, text: "clear pricing" },
-  { icon: commission, text: "adaptable commission" },
-  { icon: money, text: "from €2500" },
-  { icon: money, text: "from €2500" }
+    { icon: sort, text: "Efficient Messaging" },
+    { icon: bell, text: "Emergency Support" },
+  { icon: flash, text: "Prompt Responses" },
+  { icon: timer, text: "72-Hour Proposals" }
 ];
 
 const Support = () => {
@@ -22,49 +23,62 @@ const Support = () => {
    
 
 
-      <div className='relative flex flex-col gap-4 items-center text-center bg-[#0A0024] py-8 w-[50%] h-[600px] z-10'>
+      <div className='relative flex flex-col gap-8 items-center text-center bg-[#0A0024] py-16 w-[50%]  z-10'>
 
          {/* Left Overlapping Image */}
       <img 
         src={left_overlap} 
         alt="Left decorative element" 
-        className="absolute -left-[25%] top-1/2 -translate-y-1/2 w-[300px] h-auto z-0" 
+        className="absolute -left-[35%] top-1/2 -translate-y-1/2 w-[400px] h-auto z-0" 
       />
       
       {/* Right Overlapping Image */}
       <img 
         src={right_overlap} 
         alt="Right decorative element" 
-        className="absolute -right-[25%] top-1/2 -translate-y-1/2 w-[300px] h-auto z-0" 
+        className="absolute -right-[35%] top-1/2 -translate-y-1/2 w-[400px] h-auto z-0" 
       />
         
         <h1 className='text-[12px] text-[#F2F2F2] leading-[19px] font-neutra tracking-[1.56px]'>
-          TAILORED EXPERIENCE
+        Support 24/7
         </h1>
 
-        <div className='flex flex-col items-center justify-center mt-4'>
+        <div className='flex flex-col items-center justify-center mt-4 '>
           <h1 className='text-[36px] text-white leading-[44px] font-berlingske font-semibold'>
-            Curate extraordinary
+          Continuous, clear
           </h1>
           <h1 className='text-[36px] text-white leading-[44px] font-berlingske font-semibold'>
-            Journeys.
+          Communication
           </h1>
         </div>
 
-        <p className='text-[20px] text-white leading-[28px] font-berlingske tracking-[1%] w-[40%]'>
-          Thoughtfully crafted journeys and premium business travel services designed specifically for your discerning clients...
-        </p>
+        <p className='text-[20px] text-[#fff] leading-[24px]  font-berlingske  tracking-[0.5px]  w-[70%]'>
+        Responsive and Efficient Support at All Times.
+       </p>
 
-        <div className='flex gap-10 mt-8'>
+       <p className='text-[20px] text-[#fff] leading-[28px]  font-berlingske  tracking-[0.2px]  w-[70%]'>
+       Maintain effortless communication through Mobile,  Email,
+SMS, or WhatsApp, with emergency support readily available.
+       </p>
+
+       <p className='text-[20px] text-[#fff] leading-[28px]  font-berlingske  tracking-[0.2px]  w-[70%]'>
+       Proposals are typically provided within 72 hours, 
+ensuring timely and dependable service.
+       </p>
+
+       <div className='flex  items-start gap-4'>
+       <div className='flex flex-col gap-10 mt-8'>
           {listItems.slice(0,2).map((item, index) => (
-            <IconListItem key={index} textColor='text-white' icon={item.icon} text={item.text} />
+            <IconListItem key={index} textColor='text-white' icon={item.icon} text={item.text}  />
           ))}
         </div>
-        <div className='flex gap-10 mt-8'>
+        <div className='flex flex-col gap-10 mt-8'>
           {listItems.slice(2,4).map((item, index) => (
-            <IconListItem key={index} textColor='text-white' icon={item.icon} text={item.text} />
+            <IconListItem key={index} textColor='text-white' icon={item.icon} text={item.text}  />
           ))}
         </div>
+       </div>
+       <h1 className='text-[15px]  text-[#FF7338] leading-[19px] font-neutra  tracking-[1.56px] uppercase '>Request a Personalized Proposal</h1>
       </div>
       </div>
   );

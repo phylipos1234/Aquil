@@ -1,27 +1,26 @@
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css'
-import Hero from './pages/home/Hero';
-import ProfessionalsPage from './pages/professinals';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./index.css";
+import Hero from "./pages/home/Hero";
+import ProfessionalsPage from "./pages/professinals";
+import About from "./pages/About/index";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
- 
-
   return (
-    <>
-      <Router>
-        <Routes>
-          {/* Define your routes here */}
-          <Route path="/" element={<Hero/>} />
-          <Route path="/professionals" element={<ProfessionalsPage/>} />
-          <Route path="/about" element={<h1>About Page</h1>} />
-          <Route path="/contact" element={<h1>Contact Page</h1>} />
-          {/* Add more routes as needed */}
-        </Routes>
-      </Router>
-    
-    </>
-  )
+    <Router>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/professionals" element={<ProfessionalsPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<h1>Contact Page</h1>} />
+      </Routes>
+
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;

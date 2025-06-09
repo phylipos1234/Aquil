@@ -39,13 +39,13 @@ const Header = ({ textColor = 'text-white' }) => {
       <div className=" h-[0.5px] bg-[#FFFFFF66] w-full" />
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex flex-wrap justify-center space-x-4 text-md font-berlingske text-center leading-[19px]  tracking-[1.56px] font-medium mt-4">
+      <nav className="hidden md:flex flex-wrap justify-center space-x-4 text-md  text-center   mt-4">
         {navLinks.map((link, index) => (
           <React.Fragment key={link.path}>
             {index > 0 && <span className="flex items-center gap-1">•</span>}
             <Link 
               to={link.path} 
-              className={`hover:text-yellow-300 ${textColor}`}
+              className={`hover:text-yellow-300 ${textColor} leading-[19px] font-berlingske  tracking-[1.56px] font-medium `}
             >
               {link.label.toUpperCase()}
             </Link>

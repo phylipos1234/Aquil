@@ -8,6 +8,7 @@ module.exports = {
       extend: {
         fontFamily: {
           berlingske: ['"Berlingske Serif"', 'serif'],
+          neutra: ['"Neutraface Text"', 'serif'],
         }
       },
     },

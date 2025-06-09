@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../public/images/Calque_1.png';
+import main_logo_black from '@/assets/icons/header/main-logo-black.svg';
+import mini_logo_black from '@/assets/icons/header/mini-logo-black.svg';
+import main_logo_white from '@/assets/icons/header/main-logo-white.svg';
+import mini_logo_white from '@/assets/icons/header/mini-logo-white.svg';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 const Header = ({ textColor = 'text-white' }) => {
@@ -21,10 +25,14 @@ const Header = ({ textColor = 'text-white' }) => {
     { path: '/explore-journal', label: 'Explore Journal' },
   ];
 
+  const MainLogo=textColor=="text-white"?main_logo_white:main_logo_black;
+  const MiniLogo=textColor=="text-white"?mini_logo_white:mini_logo_black;
+
   return (
     <header className={`w-full ${textColor} px-4 md:px-10 pb-4 bg-transparent`}>
       <div className="flex flex-col items-center py-4">
-        <img src={Logo} alt="Aquila Project Logo" className="w-32 h-auto mb-2" />
+        <img src={MainLogo} alt="Aquila Project Logo" className="w-32 h-auto mb-2" />
+        <img src={MiniLogo} alt="Aquila Project Logo" className="w-32 h-auto mb-2" />
       </div>
 
       {/* Thin underline */}

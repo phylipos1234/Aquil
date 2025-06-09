@@ -5,6 +5,7 @@ import ProfessinalsMain from './components/ProfessinalsMain'
 import Authenticity from './components/Authenticity'
 import Pricing from './components/Pricing'
 import Dedication from './components/Dedication'
+import Support from './components/Support'
 
 const ProfessionalsPage = () => {
   return (
@@ -14,6 +15,7 @@ const ProfessionalsPage = () => {
         <Authenticity />
         <Pricing />
         <Dedication />
+        <Support  />
         
         {/* <Footer/> */}
     </div>

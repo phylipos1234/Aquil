@@ -38,7 +38,7 @@ const ProfessinalsMain = () => {
 
 
                <h1 className='text-[36px] text-[white] leading-[44px] font-berlingske font-semibold'>Curate extraordinary
-               Journeys.</h1>
+              </h1>
                <h1 className='text-[36px] text-[white] leading-[44px]  font-berlingske font-semibold'>
                Journeys.</h1>
                </div>

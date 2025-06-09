@@ -3,7 +3,16 @@ import authenticity from '/images/professinals/auth.png'
 import boutique from '@/assets/icons/professionals/boutique.svg'
 import experience from '@/assets/icons/professionals/experience.svg'
 import emerging from '@/assets/icons/professionals/emerging.svg'
+import IconListItem from '@/components/IconListItem'
 
+const listItems = [
+    { icon: boutique, text: "Boutique partnership" },
+    { icon: experience, text: "Authentic experiences" },
+    { icon: emerging, text: "emerging destinations" }
+  ];
+  
+
+  
 const Authenticity = () => {
   return (
       <div className="bg-[#EDF5FC] mx-10 mb-12 font-berlingske flex flex-row ">
@@ -22,22 +31,13 @@ const Authenticity = () => {
                </p>
 
 
-            {/* Lists */}
-               <div className='flex flex-col gap-6 mt-8 '>
-                <div className='flex flex-row gap-4 items-center'>
-                    <img src={boutique} alt="boutique" className="" />
-                <p className="text-[#0A0024] text-[15px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase ">Boutique partnership </p>
-                    </div>
+           
 
-                    <div className='flex flex-row gap-4 items-center'>
-                    <img src={experience} alt="boutique" className="" />
-                <p className="text-[#0A0024] text-[15px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase ">Authentic experiences</p>
-                    </div>
-                    <div className='flex flex-row gap-4 items-center'>
-                    <img src={emerging} alt="boutique" className="" />
-                <p className="text-[#0A0024] text-[15px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase">emerging destinations</p>
-                    </div>
-               </div>
+               <div className={`flex flex-col gap-6 mt-8 `}>
+      {listItems.map((item, index) => (
+        <IconListItem key={index} icon={item.icon} text={item.text} />
+      ))}
+    </div>
             
           </div>
   

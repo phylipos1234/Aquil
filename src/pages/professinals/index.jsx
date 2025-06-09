@@ -7,7 +7,7 @@ const ProfessionalsPage = () => {
     <div className=" min-h-screen py-14 flex flex-col justify-between px-6 sm:px-16">
         <Header textColor='text-[#000]' />
         {/* Section Title and Content */}
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }

@@ -12,7 +12,7 @@ import country8 from '../../assets/Layer_1 (8).svg';
 import About_aquila from './About_aquila';
 import Featured_Expriance from './Featured_Expriance';
 import Trip_Planner from './Trip_Planner';
-import Accessible_tourism from './accessible_tourism';
+import Accessible_tourism from './Accessible_tourism';
 import Destination_wedding from './Destination_wedding';
 import Sustainability from './Sustainability';
 

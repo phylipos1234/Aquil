@@ -31,8 +31,8 @@ const Header = ({ textColor = 'text-white' }) => {
   return (
     <header className={`w-full ${textColor} px-4 md:px-10 pb-4 bg-transparent`}>
       <div className="flex flex-col items-center py-4">
-        <img src={MainLogo} alt="Aquila Project Logo" className="w-32 h-auto mb-2" />
-        <img src={MiniLogo} alt="Aquila Project Logo" className="w-32 h-auto mb-2" />
+        <img src={MainLogo} alt="Aquila Project Logo" className="w-[244px] h-[68px] mb-2" />
+        <img src={MiniLogo} alt="Aquila Project Logo" className="w-[140px] h-[12px] mb-2" />
       </div>
 
       {/* Thin underline */}

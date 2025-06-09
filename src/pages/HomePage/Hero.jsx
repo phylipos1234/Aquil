@@ -15,6 +15,9 @@ import Trip_Planner from './Trip_Planner';
 import Accessible_tourism from './Accessible_tourism';
 import Destination_wedding from './Destination_wedding';
 import Sustainability from './Sustainability';
+import Location from './Location';
+import Explore_Jornal from './Explore_Jornal';
+import Footer from '../../components/Footer';
 
 const Hero = () => {
   const scrollRef = useRef(null);
@@ -102,6 +105,13 @@ const Hero = () => {
 </div>
 <div>
     <Sustainability/>
+</div>
+<div>
+    <Location/>
+</div>
+<Explore_Jornal/>
+<div>
+    <Footer/>
 </div>
     </>
 

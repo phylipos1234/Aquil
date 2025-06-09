@@ -3,20 +3,20 @@ import weeding from '../../../public/images/city-gallery-img2-1536x1109.jpg (1).
 
 const Destination_wedding = () => {
   return (
-    <div className="bg-[#EDF5FC] py-16 px-6 mx-8 mt-6">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+    <div className="bg-[#EDF5FC] mt-6"> {/* Removed mx-16 */}
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch gap-16">
         
         {/* Image Section */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 h-full">
           <img
             src={weeding}
             alt="Destination Wedding"
-            className="w-full rounded-xl shadow-lg object-cover"
+            className="w-full h-full object-cover shadow-lg"
           />
         </div>
 
         {/* Text Section */}
-        <div className="md:w-1/3 text-[#0A0027]">
+        <div className="md:w-1/2 h-full flex flex-col justify-center text-[#0A0027]">
           <p className="text-[#FF7338] text-xs font-semibold uppercase mb-2 tracking-wide">
             Destination Wedding
           </p>

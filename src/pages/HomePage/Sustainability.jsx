@@ -3,7 +3,7 @@ import sustainability from '../../../public/images/Parallax Image.png';
 
 const Sustainability = () => {
   return (
-    <div className="w-full h-full overflow-hidden">
+    <div className="w-full h-full overflow-hidden mt-8">
       <img
         src={sustainability}
         alt="Sustainability"

@@ -6,6 +6,10 @@ import Authenticity from './components/Authenticity'
 import Pricing from './components/Pricing'
 import Dedication from './components/Dedication'
 import Support from './components/Support'
+import Amenities from './components/Amenities'
+import Precision from './components/Precision'
+import Experts from './components/Experts'
+import Preparation from './components/Preparation'
 
 const ProfessionalsPage = () => {
   return (
@@ -16,6 +20,10 @@ const ProfessionalsPage = () => {
         <Pricing />
         <Dedication />
         <Support  />
+        <Amenities />
+        <Precision />
+        <Experts />
+        <Preparation />
         
         {/* <Footer/> */}
     </div>

@@ -18,7 +18,7 @@ const listItems = [
 const Support = () => {
   return (
       
-    <div className='flex items-center justify-center'>
+    <div className='flex items-center justify-center py-16 bg-[#fff]'>
 
    
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import container from "../../../public/Images/Container (1).png";
+// import container from "../../../public/Images/Container (1).png";
 
 const Trip_Planner = () => {
   return (
@@ -24,7 +24,7 @@ const Trip_Planner = () => {
         {/* Image Section */}
         <div className="lg:w-1/2">
           <img 
-            src={container} 
+            src={''} 
             alt="Luxury Travel Container" 
             className="w-full  shadow-lg object-cover"
           />

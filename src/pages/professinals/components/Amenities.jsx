@@ -13,8 +13,7 @@ const listItems = [
 
 const Amenities = () => {
   return (
-    <div className="relative mx-12 mb-12 "> {/* Set fixed/relative height */}
-      {/* Image container (full width/height) */}
+    <div className="relative  mb-12 "> 
       <img 
         src={amenity} 
         alt="amenity" 

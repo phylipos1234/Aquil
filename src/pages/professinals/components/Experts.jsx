@@ -1,14 +1,20 @@
 import React from 'react'
-import authenticity from '/images/professinals/auth.png' 
-import boutique from '@/assets/icons/professionals/boutique.svg'
-import experience from '@/assets/icons/professionals/experience.svg'
-import emerging from '@/assets/icons/professionals/emerging.svg'
+import cheff from '/images/professinals/cheff.png' 
+import trees from '@/assets/icons/professionals/trees.svg'
+import wedding_ring from '@/assets/icons/professionals/wedding_ring.svg'
+import forks from '@/assets/icons/professionals/forks.svg'
+import wine_glass  from '@/assets/icons/professionals/wine_glass .svg'
+import quill from '@/assets/icons/professionals/quill.svg'
+import bicycle from '@/assets/icons/professionals/bicycle.svg'
 import IconListItem from '@/components/IconListItem'
 
 const listItems = [
-    { icon: boutique, text: "Boutique partnership" },
-    { icon: experience, text: "Authentic experiences" },
-    { icon: emerging, text: "emerging destinations" }
+    { icon: trees, text: "Adventure" },
+    { icon: wedding_ring, text: "weddings" },
+    { icon: forks, text: "gastronomy" },
+    { icon: wine_glass, text: "wine tours" },
+    { icon: quill, text: "culture" },
+    { icon: bicycle, text: "transport options" }
   ];
   
 
@@ -19,21 +25,23 @@ const Experts = () => {
           
           {/* Text Section */}
           <div className="lg:w-1/2 h-full flex flex-col justify-center p-16">
-            <p className="text-[#0A0024] text-[12px]  leading-[19px] font-neutra  tracking-[1.56px]">AUTHENTICITY </p>
+            <p className="text-[#0A0024] text-[12px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase ">Curated by Experts </p>
             <h1 className="text-[36px] text-[#0A0024] leading-[44px] font-berlingske font-semibold">
-            Exclusive Access & 
+            Expertly Selected
             </h1>
             <h1 className="text-[36px] text-[#0A0024] leading-[44px] font-berlingske font-semibold">
-             Premium Experiences
+            Suppliers
             </h1>
             <p className='text-[20px] text-[#0A0024] leading-[28px]  font-berlingske  tracking-[1%]  mt-10 w-[70%] '>
-            Gain direct access travel to a carefully curated portfolio of unique and luxurious experiences, accommodations, and destinations. Each offering is expertly chosen to resonate deeply with sophisticated travelers seeking exclusivity, authenticity, and refined elegance.
+            Our carefully selected partners specialize
+ in adventure travel, Gastronomy & Culinary Tours, Cultural Immersion, Wedding Planning, Wine Experiences, and Rail and Private Transportation (excluding flights).
+
                </p>
 
 
            
 
-               <div className={`flex flex-col gap-6 mt-8 `}>
+               <div className={`grid grid-cols-1 sm:grid-cols-2  gap-6 mt-8 `}>
       {listItems.map((item, index) => (
         <IconListItem key={index} icon={item.icon} text={item.text} />
       ))}
@@ -44,8 +52,8 @@ const Experts = () => {
           {/* Image Section */}
           <div className="lg:w-1/2">
             <img 
-              src={authenticity} 
-              alt="authenticity" 
+              src={cheff} 
+              alt="cheff" 
               className="w-full h-full object-cover"
             />
           </div>

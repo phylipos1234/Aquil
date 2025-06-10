@@ -1,5 +1,5 @@
 import React from 'react';
-import amenity from '/images/professinals/amenity.png';
+import happy_people from '/images/professinals/happy_people.png';
 import landing from '@/assets/icons/professionals/landing.svg';
 import bed from '@/assets/icons/professionals/bed.svg';
 import checked from '@/assets/icons/professionals/checked.svg';
@@ -13,39 +13,39 @@ const listItems = [
 
 const Preparation = () => {
   return (
-    <div className="relative mx-12 mb-12 "> {/* Set fixed/relative height */}
+    <div className="relative  mt-12 "> {/* Set fixed/relative height */}
       {/* Image container (full width/height) */}
       <img 
-        src={amenity} 
-        alt="amenity" 
+        src={happy_people} 
+        alt="happy_people" 
         className="w-full h-full object-cover"
       />
       
       {/* Overlay content (positioned absolutely) */}
       {/* <div className="absolute  top-0 right-0 bg-red-400 flex items-center ">  */}
-        <div className=" absolute  top-[20%] right-[5%] w-1/3 p-10 text-[#0A0024] bg-[#fff]   "> 
-          <p className="text-[#0A0024] text-[12px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase">Exclusive amenities & affiliations </p>
+        <div className=" absolute  top-[20%] right-[5%] w-1/4 p-10 text-[#0A0024] bg-[#fff]   "> 
+          <p className="text-[#0A0024] text-[12px]  leading-[19px] font-neutra  tracking-[1.56px] uppercase">Effortless Preparation </p>
                       <h1 className="text-[36px] text-[#0A0024] leading-[44px] font-berlingske font-semibold">
-                      Thoughtful Amenities,
+                      Accessible resources, 
                      
                       </h1>
                       <h1 className="text-[36px] text-[#0A0024] leading-[44px] font-berlingske font-semibold">
-                      Esteemed Partnerships
+                      seamless planning
                       </h1>
                       <p className='text-[20px] text-[#0A0024] leading-[28px]  font-berlingske  tracking-[0.2px]  mt-10  '>
-                      Provide your clients with meaningful 
-amenities such as complimentary airport transfers, thoughtful room upgrades, and relaxing spa experiences, leveraging our collaboration with distinguished consortia like Virtuoso.
+                      Easily access detailed sample
+itineraries and a comprehensive 
+digital knowledge hub designed 
+specifically for travel professionals 
+and their clients.
+
 
                          </p>
           
           
                      
           
-                         <div className={`flex flex-wrap gap-6 mt-8 `}>
-                {listItems.map((item, index) => (
-                  <IconListItem key={index} icon={item.icon} text={item.text} />
-                ))}
-              </div>
+                         <h1 className='text-[15px]  text-[#FF7338] leading-[19px] font-neutra  tracking-[1.56px] mt-8 font-semibold uppercase  '>Request Proposal</h1>
         </div>
       {/* </div> */}
     </div>

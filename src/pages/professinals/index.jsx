@@ -14,7 +14,7 @@ import ExclusiveInsights from "./components/ExclusiveInsights";
 
 const ProfessionalsPage = () => {
   return (
-    <div className=" min-h-screen pt-8 flex flex-col justify-between ">
+    <div className=" min-h-screen mt-[190px] flex flex-col justify-between ">
       <Header textColor="text-[#000]" />
       <ProfessinalsMain />
       <Authenticity />
@@ -27,7 +27,7 @@ const ProfessionalsPage = () => {
       <Preparation />
       <ExclusiveInsights />
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

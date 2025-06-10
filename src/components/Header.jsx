@@ -17,7 +17,7 @@ const Header = ({ textColor = "text-white" }) => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/our-story", label: "Our Story" },
+    { path: "/about", label: "Our Story" },
     { path: "/trip-planner", label: "Trip Planner" },
     { path: "/destination-wedding", label: "Destination Wedding" },
     { path: "/professionals", label: "Professionals" },
@@ -75,9 +75,11 @@ const Header = ({ textColor = "text-white" }) => {
         {navLinks.map((link, index) => (
           <React.Fragment key={link.path}>
             {index > 0 && <span className="flex items-center gap-1">•</span>}
-            <Link 
-              to={link.path} 
-              className={`hover:text-yellow-300 ${textColor} leading-[19px] font-berlingske  tracking-[1.56px] font-medium `}
+            <Link
+              to={link.path}
+              className={`hover:text-yellow-300 ${
+                isScrolled ? "text-[#fff]" : textColor
+              } leading-[19px] font-berlingske  tracking-[1.56px] font-medium `}
             >
               {link.label.toUpperCase()}
             </Link>

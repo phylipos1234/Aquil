@@ -4,6 +4,7 @@ import HeroImages from "../../public/images/Calque_1.png";
 import design from "@/assets/icons/design.svg";
 import main_logo_white from "@/assets/icons/header/main-logo-white.svg";
 import mini_logo_white from "@/assets/icons/header/mini-logo-white.svg";
+import linkedin from "@/assets/icons/footer/linkedin.svg";
 
 const Footer = () => {
   return (

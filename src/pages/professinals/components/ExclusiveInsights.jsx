@@ -12,7 +12,7 @@ const listItems = [
 
 const ExclusiveInsights = () => {
   return (
-    <div className="flex flex-col gap-4  items-center text-center  bg-[#0A0024]  py-16 ">
+    <div className="flex flex-col gap-4  items-center text-center  bg-[#0A0024]  py-16 px-4 ">
       <div className="flex flex-col items-center justify-center gap-4">
         {/* <img src={design} alt="design" className="" /> */}
         <h1 className="text-[12px]  text-[#F2F2F2] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
@@ -29,7 +29,7 @@ const ExclusiveInsights = () => {
         </h1>
       </div>
 
-      <p className="text-[20px] text-[#fff] leading-[28px]  font-berlingske  tracking-[1%]  w-[25%]">
+      <p className="text-[20px] text-[#fff] leading-[28px]  font-berlingske  tracking-[1%] w-full  md:w-[25%]">
         Participate in monthly webinars offering valuable insights, industry
         updates, and specialized training tailored specifically for travel
         professionals.

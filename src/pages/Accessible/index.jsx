@@ -21,7 +21,7 @@ const Accessible = () => {
         <div className="mx-auto flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 max-w-7xl">
           {/* Left Content */}
           <div className="md:w-1/3 text-left flex flex-col gap-5 font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-2">
+            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-2 font-neutra">
               Accessible Tourism
             </p>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
@@ -37,7 +37,7 @@ const Accessible = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your accessible escape"
             >
               Start planning your escape
@@ -74,7 +74,7 @@ const Accessible = () => {
               className="mx-auto w-8 sm:w-10 md:w-10 h-8 sm:h-10 md:h-10"
             />
           </div>
-          <p className="uppercase text-xs tracking-[1.6px] text-gray-500 mb-2">
+          <p className="uppercase text-xs tracking-[1.6px] text-gray-500 mb-2 font-neutra">
             Accessible Tourism
           </p>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 font-berlingske">
@@ -101,7 +101,7 @@ const Accessible = () => {
           </div>
 
           <div className="md:w-1/2 text-left font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] mb-2">
+            <p className="uppercase text-xs tracking-[1.6px] mb-2 font-neutra">
               Curated Experiences
             </p>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
@@ -122,7 +122,7 @@ const Accessible = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your curated escape"
             >
               Start planning your escape
@@ -135,7 +135,7 @@ const Accessible = () => {
         {/* Text */}
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-20 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-4">
+            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-4 font-neutra">
               The Quiet Art of Inclusion
             </p>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
@@ -157,7 +157,7 @@ const Accessible = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Speak to a travel curator"
             >
               Speak to a curator

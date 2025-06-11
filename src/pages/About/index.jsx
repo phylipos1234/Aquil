@@ -26,7 +26,7 @@ const About = () => {
 
       <div className="bg-[#0A0024] py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-6 text-center text-white font-berlingske">
         <div className="max-w-3xl mx-auto">
-          <p className="text-[10px] tracking-widest uppercase text-[#b3b3b3] mb-2">
+          <p className="text-[10px] tracking-widest uppercase text-[#b3b3b3] mb-2 font-neutra">
             Quiet Excellence
           </p>
           <h2 className="text-xl sm:text-3xl md:text-5xl font-semibold mb-6 leading-tight">
@@ -46,7 +46,7 @@ const About = () => {
               curated with elegance, discretion, and quiet confidence.
             </p>
           </div>
-          <p className="text-xs text-[#FF7338] uppercase tracking-wide font-medium">
+          <p className="text-xs text-[#FF7338] uppercase tracking-wide font-medium font-neutra">
             <a
               href="#"
               className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
@@ -80,7 +80,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-row items-stretch justify-between max-w-[85rem] ml-auto gap-4 sm:gap-6 lg:gap-8">
           {/* Text Section */}
           <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-4 py-6 sm:py-8 lg:py-10">
-            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase">
+            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase font-neutra">
               Timeless Travel.
             </p>
             <h1 className="text-xl sm:text-2xl lg:text-[28px] mt-2 text-[#0A0024] leading-snug">
@@ -97,7 +97,7 @@ const About = () => {
               tasting, the precision of a well-planned moment. This is how we
               measure value—through quality, authenticity, and impact.
             </p>
-            <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+            <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
               <a
                 href="#"
                 className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
@@ -120,7 +120,7 @@ const About = () => {
       </section>
 
       <section className="my-12 sm:my-16 md:my-24 max-w-6xl flex flex-col items-center justify-center mx-auto font-berlingske">
-        <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase">
+        <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase font-neutra">
           Refined Purpose.
         </p>
         <h2 className="text-xl sm:text-2xl md:text-4xl font-bold italic mb-6 sm:mb-8 md:mb-10">
@@ -150,7 +150,7 @@ const About = () => {
         style={{ backgroundImage: `url(${About6})` }}
       >
         <div className="bg-white max-w-md p-6 sm:p-8 md:p-10 text-left shadow-lg font-berlingske">
-          <p className="text-[11px] uppercase font-semibold tracking-wide text-[#0A0024]">
+          <p className="text-[11px] uppercase font-semibold tracking-wide text-[#0A0024] font-neutra">
             Intentional Design
           </p>
           <h2 className="text-lg sm:text-xl md:text-[26px] font-semibold mt-2 text-[#0A0024]">
@@ -168,7 +168,7 @@ const About = () => {
             every experience placed with purpose, and every detail handled with
             grace.
           </p>
-          <p className="mt-6 text-sm sm:text-base md:text-[14px] text-[#FF7338] font-semibold cursor-pointer">
+          <p className="mt-6 text-sm sm:text-base md:text-[14px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
             <a
               href="#"
               className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
@@ -202,7 +202,7 @@ const About = () => {
 
           {/* Content Box */}
           <div className="bg-[#0A0024] text-white px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-24 rounded-none text-center z-10 relative w-full">
-            <p className="uppercase text-xs sm:text-sm tracking-[2px] text-white/60 mb-2">
+            <p className="uppercase text-xs sm:text-sm tracking-[2px] text-white/60 mb-2 font-neutra">
               Trusted Access
             </p>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
@@ -222,7 +222,7 @@ const About = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Explore beyond any guidebook"
             >
               Go beyond any guidebook
@@ -233,7 +233,7 @@ const About = () => {
 
       <section className="bg-white py-10 sm:py-12 md:py-20 px-4 sm:px-6 md:px-6 text-center font-berlingske">
         <div className="max-w-4xl mx-auto">
-          <p className="uppercase text-xs tracking-[2px] mb-2">
+          <p className="uppercase text-xs tracking-[2px] mb-2 font-neutra">
             Conscious Luxury
           </p>
           <h2 className="text-xl sm:text-3xl md:text-4xl font-bold mb-4">
@@ -254,7 +254,7 @@ const About = () => {
           </p>
           <a
             href="#"
-            className="uppercase text-xs sm:text-sm tracking-widest text-[#F76434] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#F76434]"
+            className="uppercase text-xs sm:text-sm tracking-widest text-[#F76434] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#F76434] font-neutra"
             aria-label="Learn more about our conscious luxury"
           >
             Learn More
@@ -283,7 +283,7 @@ const About = () => {
       <div className="bg-[#EDF5FC] mt-12 sm:mt-16 md:mt-20 mb-12 font-berlingske">
         <div className="flex flex-col lg:flex-row items-stretch justify-between max-w-[85rem] ml-auto gap-4 sm:gap-6 lg:gap-8">
           <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-4 py-6 sm:py-8 lg:py-10">
-            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase">
+            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase font-neutra">
               Seamless Support
             </p>
             <h1 className="text-xl sm:text-2xl lg:text-[28px] mt-2 text-[#0A0024] leading-snug">
@@ -300,7 +300,7 @@ const About = () => {
               peace of mind. Aquila’s global structure allows for continuous
               care with a personal touch.
             </p>
-            <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+            <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
               <a
                 href="#"
                 className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"

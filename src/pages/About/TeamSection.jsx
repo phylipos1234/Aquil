@@ -56,7 +56,9 @@ export default function TeamSection() {
   return (
     <section className="relative bg-[#0A0024] text-white pt-20 pb-20 md:px-24 font-berlingske">
       <div className="text-center mb-14">
-        <p className="text-xs tracking-widest uppercase">Dedicated Divisions</p>
+        <p className="text-xs tracking-widest uppercase font-neutra">
+          Dedicated Divisions
+        </p>
         <h2 className="text-3xl font-semibold mt-2 mb-4">
           The Structure of care.
         </h2>
@@ -104,8 +106,8 @@ export default function TeamSection() {
         </div>
 
         {/* Text Section */}
-        <div className="w-[50%] md:ml-[35rem] mt-0">
-          <p className="text-[10px] md:text-xs uppercase tracking-widest text-gray-300 mb-2">
+        <div clkassName="w-[50%] md:ml-[35rem] mt-0">
+          <p className="text-[10px] font-neutra uppercase tracking-widest text-gray-300 mb-2">
             {active.label}
           </p>
           <h3 className="text-md md:text-xl font-semibold mb-4">
@@ -114,7 +116,7 @@ export default function TeamSection() {
           <p className="text-xs md:text-sm text-gray-300 leading-relaxed max-w-xl">
             {active.description}
           </p>
-          <button className="text-xs md:text-sm text-orange-400 mt-6 hover:underline">
+          <button className="text-xs md:text-sm text-orange-400 mt-6 hover:underline uppercase font-neutra">
             Get in touch
           </button>
         </div>

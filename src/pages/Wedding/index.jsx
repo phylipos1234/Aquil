@@ -28,7 +28,7 @@ const Wedding = () => {
               className="mx-auto w-6 sm:w-8 lg:w-10 h-6 sm:h-8 lg:h-10"
             />
           </div>
-          <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-gray-500 mb-2">
+          <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-gray-500 mb-2 font-neutra">
             Elegant Escapes
           </p>
           <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
@@ -42,7 +42,7 @@ const Wedding = () => {
             Mediterranean light.
           </p>
 
-          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
             Discover the Art of Destination Weddings
           </p>
         </div>
@@ -57,7 +57,7 @@ const Wedding = () => {
           </div>
 
           <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 py-8 sm:py-10">
-            <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase">
+            <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
               Insider Expertise
             </p>
 
@@ -79,7 +79,7 @@ const Wedding = () => {
               logistics into effortless beauty.
             </p>
 
-            <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+            <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
               GET IN TOUCH WITH CLELIA
             </p>
           </div>
@@ -89,7 +89,7 @@ const Wedding = () => {
       <section className="bg-white flex flex-col md:flex-row w-full h-auto md:p-8 lg:p-20">
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 lg:px-20 py-8 sm:py-12 lg:py-28 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 mb-4">
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 mb-4 font-neutra">
               Tailored Elegance
             </p>
 
@@ -115,7 +115,7 @@ const Wedding = () => {
 
             <a
               href="#"
-              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Speak to a travel curator"
             >
               Tell Us Your Vision Design Something Personal
@@ -143,7 +143,7 @@ const Wedding = () => {
           </div>
 
           <div className="lg:w-1/3 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 py-8 sm:py-10">
-            <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase">
+            <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
               Trusted Network
             </p>
 
@@ -162,7 +162,7 @@ const Wedding = () => {
               You get more than a beautiful wedding. You get peace of mind.
             </p>
 
-            <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+            <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
               Access Our Trusted Network
             </p>
           </div>
@@ -172,7 +172,7 @@ const Wedding = () => {
       <section className="bg-[#0A0027] text-white py-8 sm:py-12 lg:py-20 px-4 sm:px-6 lg:px-20">
         <div className="mx-auto flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 lg:gap-10 max-w-7xl">
           <div className="md:w-1/3 text-left flex flex-col gap-5 font-berlingske">
-            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 mb-2">
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 mb-2 font-neutra">
               Personal Story
             </p>
             <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4">
@@ -187,7 +187,7 @@ const Wedding = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your accessible escape"
             >
               Craft Your Story
@@ -224,7 +224,7 @@ const Wedding = () => {
         </div>
 
         <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 lg:ml-[30rem] py-8 sm:py-10 font-berlingske mt-6 lg:mt-0">
-          <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase">
+          <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
             Effortless Planning
           </p>
 
@@ -239,7 +239,7 @@ const Wedding = () => {
             unfolds into something unforgettable.
           </p>
 
-          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
             Book Your Consultation
           </p>
         </div>

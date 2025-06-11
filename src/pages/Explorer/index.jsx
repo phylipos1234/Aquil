@@ -21,7 +21,7 @@ const DestinationCard = ({ image, title, subtitle, description }) => (
     <div className="bg-white p-4 sm:p-6">
       <div className="border-b border-gray-200 pb-4 mb-4">
         {subtitle && (
-          <h4 className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase">
+          <h4 className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
             {subtitle}
           </h4>
         )}
@@ -31,7 +31,7 @@ const DestinationCard = ({ image, title, subtitle, description }) => (
         {description}
       </p>
 
-      <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer hover:underline">
+      <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer hover:underline font-neutra">
         Explore
       </p>
     </div>
@@ -124,7 +124,7 @@ const Explorer = () => {
         </div>
 
         <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 lg:ml-[30rem] font-berlingske mt-6 lg:mt-0">
-          <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase">
+          <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
             tailored experiences
           </p>
 
@@ -142,7 +142,7 @@ const Explorer = () => {
             standards.
           </p>
 
-          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer hover:underline">
+          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer hover:underline font-neutra">
             Request a Personalized Proposal
           </p>
         </div>

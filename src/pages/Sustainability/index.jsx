@@ -53,7 +53,7 @@ const Sustainability = () => {
 
           {/* Text Section */}
           <div className="lg:w-1/2 h-full flex flex-col justify-center pr-20 pl-4 py-10">
-            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase">
+            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase font-neutra">
               SUSTAINABILITY
             </p>
 
@@ -72,7 +72,7 @@ const Sustainability = () => {
               only through elegance, but through care.
             </p>
 
-            <p className="mt-12 text-[16px] text-[#FF7338] font-semibold cursor-pointer">
+            <p className="mt-12 text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
               Start a Thoughtful Journey
             </p>
           </div>
@@ -88,7 +88,7 @@ const Sustainability = () => {
               className="mx-auto w-8 sm:w-10 md:w-10 h-8 sm:h-10 md:h-10"
             />
           </div>
-          <p className="uppercase text-xs tracking-[1.6px] text-gray-500 mb-2">
+          <p className="uppercase text-xs tracking-[1.6px] text-gray-500 mb-2 font-neutra">
             Lasting Principles
           </p>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 font-berlingske">
@@ -117,7 +117,7 @@ const Sustainability = () => {
           </div>
 
           <div className="md:w-1/2 text-left font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] mb-2">
+            <p className="uppercase text-xs tracking-[1.6px] mb-2 font-neutra">
               Curated Experiences
             </p>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
@@ -138,7 +138,7 @@ const Sustainability = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your curated escape"
             >
               Start planning your escape
@@ -151,7 +151,7 @@ const Sustainability = () => {
         {/* Text */}
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-28 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-4">
+            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-4 font-neutra">
               Shared Purpose
             </p>
 
@@ -169,7 +169,7 @@ const Sustainability = () => {
 
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Speak to a travel curator"
             >
               Speak to a Curator

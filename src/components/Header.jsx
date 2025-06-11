@@ -18,12 +18,12 @@ const Header = ({ textColor = "text-white" }) => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/about", label: "Our Story" },
-    { path: "/trip-planner", label: "Trip Planner" },
-    { path: "/destination-wedding", label: "Destination Wedding" },
+    // { path: "/wedding", label: "Trip Planner" },
+    { path: "/wedding", label: "Destination Wedding" },
     { path: "/professionals", label: "Professionals" },
-    { path: "/accessible-tourism", label: "Accessible Tourism" },
+    { path: "/accessible", label: "Accessible Tourism" },
     { path: "/sustainability", label: "Sustainability" },
-    { path: "/explore-journal", label: "Explorer’s Journal" },
+    { path: "/explorer", label: "Explorer’s Journal" },
   ];
 
   const MainLogo =

@@ -13,9 +13,7 @@ const WebinarMain = () => {
       />
       
       {/* Header Section */}
-      <div className="absolute top-8 left-0 w-full px-4 sm:px-8 md:px-16">
-        <Header />
-      </div>
+      
     </div>
   );
 };

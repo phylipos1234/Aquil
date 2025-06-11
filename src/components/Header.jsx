@@ -24,6 +24,7 @@ const Header = ({ textColor = "text-white" }) => {
     { path: "/accessible", label: "Accessible Tourism" },
     { path: "/sustainability", label: "Sustainability" },
     { path: "/explorer", label: "Explorer’s Journal" },
+    {path:"/webinar",label:"Webinar"}
   ];
 
   const MainLogo =

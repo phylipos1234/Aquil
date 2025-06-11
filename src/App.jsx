@@ -4,14 +4,14 @@ import "./index.css";
 import Hero from "./pages/home/Hero";
 import Header from "./components/Header";
 import ProfessionalsPage from "./pages/professinals";
-import WebinarPage from "./pages/webinar";
 import { FaAngleUp } from "react-icons/fa";
 import About from "./pages/About";
 import Accessible from "./pages/Accessible";
-import Sustainability from "./pages/home/Sustainability";
+import Sustainability from "./pages/Sustainability";
 import Wedding from "./pages/Wedding";
 import Explorer from "./pages/Explorer";
 import Footer from "./components/Footer";
+import WebinarPage from "./pages/webinar/Index";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,10 +42,11 @@ function App() {
         <Route path="/professionals" element={<ProfessionalsPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/accessible" element={<Accessible />} />
-        <Route path="/sustainability" element={<Sustainability />} />
+        <Route path="/sustainability" element={<Sustainability/>} />
         <Route path="/wedding" element={<Wedding />} />
         <Route path="/webinar" element={<WebinarPage />} />
         <Route path="/explorer" element={<Explorer />} />
+        <Route path="webinar" element={<WebinarPage/>} />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
       </Routes>
 

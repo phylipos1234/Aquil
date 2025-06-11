@@ -9,6 +9,7 @@ const Sustainability = () => {
         alt="Sustainability"
         className="w-full h-full object-cover"
       />
+      
     </div>
   );
 };

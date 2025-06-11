@@ -58,10 +58,6 @@ const Hero = () => {
           className="w-full h-[100vh] object-cover"
         />
 
-        <div className="absolute top-8 left-0 w-full">
-          <Header />
-        </div>
-
         <div className="absolute bottom-44 left-4 sm:left-8 w-[90%] max-w-md text-white">
           <p className="text-xl sm:text-2xl md:text-3xl leading-snug font-semibold pb-10">
             Where extraordinary journeys become your story.

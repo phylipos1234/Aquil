@@ -106,7 +106,7 @@ export default function TeamSection() {
         </div>
 
         {/* Text Section */}
-        <div clkassName="w-[50%] md:ml-[35rem] mt-0">
+        <div className="w-[50%] md:ml-[35rem] mt-0">
           <p className="text-[10px] font-neutra uppercase tracking-widest text-gray-300 mb-2">
             {active.label}
           </p>

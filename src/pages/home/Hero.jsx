@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useRef, useState } from 'react';
 import HeroImages from '../../../public/images/Hero.jpg';
 import Header from '../../components/Header';
@@ -20,6 +21,26 @@ import Explore_Jornal from './Explore_Jornal';
 import Footer from '../../components/Footer';
 import rightArrow from '../../../public/images/SVG (1).svg';
 import leftArrow from '../../../public/images/SVG.svg';
+=======
+import React, { useRef } from "react";
+import HeroImages from "../../../public/images/Hero.jpg";
+import country1 from "../../assets/Layer_1 (1).svg";
+import country2 from "../../assets/Layer_1 (2).svg";
+import country3 from "../../assets/Layer_1 (3).svg";
+import country4 from "../../assets/Layer_1 (4).svg";
+import country5 from "../../assets/Layer_1 (5).svg";
+import country6 from "../../assets/Layer_1 (6).svg";
+import country7 from "../../assets/Layer_1 (7).svg";
+import country8 from "../../assets/Layer_1 (8).svg";
+import About_aquila from "./About_aquila";
+import Featured_Expriance from "./Featured_Expriance";
+import Trip_Planner from "./Trip_Planner";
+import Accessible_tourism from "./Accessible_tourism";
+import Destination_wedding from "./Destination_wedding";
+import Sustainability from "./Sustainability";
+import Location from "./Location";
+import Explore_Jornal from "./Explore_Jornal";
+>>>>>>> refs/remotes/origin/main
 
 const Hero = () => {
   const scrollRef = useRef(null);
@@ -42,11 +63,11 @@ const Hero = () => {
   ];
 
   const scrollLeft = () => {
-    setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : 0));
+    scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
   };
 
   const scrollRight = () => {
-    setCurrentIndex((prevIndex) => (prevIndex < countries.length - 1 ? prevIndex + 1 : countries.length - 1));
+    scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
 
   return (
@@ -105,13 +126,28 @@ const Hero = () => {
         </div>
       </div>
 
-      <div><About_aquila /></div>
-      <div><Featured_Expriance /></div>
-      <div><Trip_Planner /></div>
-      <div><Accessible_tourism /></div>
-      <div><Destination_wedding /></div>
-      <div><Sustainability /></div>
-      <div><Location /></div>
+      {/* Sections below hero */}
+      <div>
+        <About_aquila />
+      </div>
+      <div>
+        <Featured_Expriance />
+      </div>
+      <div>
+        <Trip_Planner />
+      </div>
+      <div>
+        <Accessible_tourism />
+      </div>
+      <div>
+        <Destination_wedding />
+      </div>
+      <div>
+        <Sustainability />
+      </div>
+      <div>
+        <Location />
+      </div>
       <Explore_Jornal />
     </>
   );

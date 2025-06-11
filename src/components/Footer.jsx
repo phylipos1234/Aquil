@@ -8,7 +8,7 @@ import linkedin from "@/assets/icons/footer/linkedin.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0A0027] w-full h-[531px] flex flex-col justify-between pt-14 pb-8 ">
+    <div className="bg-[#0A0027] w-full min-h-[531px] flex flex-col justify-between pt-14 pb-8 ">
       {/* Centered Logo */}
       <div className="flex flex-col items-center justify-center gap-4">
         <img src={design} alt="design" className="" />
@@ -16,8 +16,7 @@ const Footer = () => {
 
       {/* Footer Content */}
       <div>
-        <div className="flex gap-12 px-12 mt-10 justify-between items-center">
-          {/* Left Section */}
+        <div className="grid  grid-cols-2 md:flex gap-12 px-4 mt-10 justify-between items-center">
           <div className="flex flex-col items-center py-4">
             <img
               src={main_logo_white}
@@ -30,14 +29,12 @@ const Footer = () => {
               className="w-[140px] h-[12px] mb-2"
             />
           </div>
-          {/* Footer Links */}
-          {/* <div className="flex flex-wrap gap-12 text-white justify-between items-center"> */}
+
           <FooterInfo />
           <FooterInfo />
           <FooterInfo />
           <FooterInfo />
           <FooterInfo />
-          {/* </div> */}
         </div>
 
         {/* Horizontal Line */}
@@ -61,16 +58,16 @@ export default Footer;
 const FooterInfo = () => {
   return (
     <div className="flex flex-col gap-3">
-      <h1 className="text-[14px]  text-[#FF7338] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
+      <h1 className="text-[10px] md:text-[14px]  text-[#FF7338] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
         About Us
       </h1>
-      <h1 className="text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
+      <h1 className="text-[10px] md:text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
         Our Story
       </h1>
-      <h1 className="text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
+      <h1 className="text-[10px] md:text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
         Accessible Tourism
       </h1>
-      <h1 className="text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
+      <h1 className="text-[10px] md:text-[14px]  text-[#FFFFFF] leading-[19px] font-neutra  tracking-[1.56px] uppercase ">
         Sustainability
       </h1>
     </div>

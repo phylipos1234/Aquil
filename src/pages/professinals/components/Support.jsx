@@ -18,18 +18,18 @@ const Support = () => {
   return (
     <div className="flex items-center justify-center py-8 md:py-12 lg:py-16 bg-[#fff] px-4 sm:px-6">
       <div className="relative flex flex-col gap-6 md:gap-8 items-center text-center bg-[#0A0024] py-10 md:py-14 lg:py-16 w-full md:w-[80%] lg:w-[70%] xl:w-[50%] z-10">
-        {/* Left Overlapping Image - Hidden on mobile, adjusted on larger screens */}
+        {/* Left Overlapping Image - moved further left */}
         <img
           src={left_overlap}
           alt="Left decorative element"
-          className="hidden md:block absolute -left-[25%] lg:-left-[35%] top-1/2 -translate-y-1/2 w-[300px] md:w-[350px] lg:w-[400px] h-auto z-0"
+          className="hidden md:block absolute -left-[35%] lg:-left-[50%] top-1/2 -translate-y-1/2 w-[300px] md:w-[350px] lg:w-[400px] h-auto z-0"
         />
 
-        {/* Right Overlapping Image - Hidden on mobile, adjusted on larger screens */}
+        {/* Right Overlapping Image - moved further right */}
         <img
           src={right_overlap}
           alt="Right decorative element"
-          className="hidden md:block absolute -right-[25%] lg:-right-[35%] top-1/2 -translate-y-1/2 w-[300px] md:w-[350px] lg:w-[400px] h-auto z-0"
+          className="hidden md:block absolute -right-[35%] lg:-right-[50%] top-1/2 -translate-y-1/2 w-[300px] md:w-[350px] lg:w-[400px] h-auto z-0"
         />
 
         <h1 className="text-xs md:text-[12px] text-[#F2F2F2] leading-[19px] font-neutra tracking-[1.56px]">

@@ -33,9 +33,11 @@ const Wedding = () => {
             <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] mb-2 font-neutra">
               Elegant Escapes
             </p>
+
             <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
               A love worth <br /> traveling for.
             </h2>
+            
             <p className="text-sm sm:text-base lg:text-base font-medium">
               At Aquila, a wedding is never just a ceremony—it is a symphony of
               moments, delicately orchestrated across landscapes that leave you
@@ -50,7 +52,7 @@ const Wedding = () => {
           </span>
         </div>
 
-        <section className="bg-white flex justify-center lg:justify-end">
+        <div className="bg-white flex justify-center lg:justify-end">
           <div className="relative flex flex-col lg:flex-row items-center justify-between bg-[#F2F2F2] sm:px-6 lg:pl-20 mx-4 sm:mx-6 lg:mx-20 gap-6 sm:gap-8 w-full lg:w-[65%]">
             {/* Image section */}
             <div className="relative lg:absolute top-0 lg:top-20 w-full lg:w-[35%]">
@@ -91,7 +93,7 @@ const Wedding = () => {
               </p>
             </div>
           </div>
-        </section>
+        </div>
       </section>
 
       <section className="bg-white flex flex-col md:flex-row w-full h-auto md:p-8 lg:p-20">

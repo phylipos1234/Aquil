@@ -20,7 +20,7 @@ const Wedding = () => {
       </section>
 
       <section className="font-berlingske py-8 sm:py-12 lg:py-20 px-4 sm:px-6 lg:px-0">
-        <div className="max-w-lg flex flex-col gap-10 text-center mx-auto mb-8 sm:mb-12 lg:mb-16">
+        <div className="max-w-lg flex flex-col gap-10 text-center mx-auto mb-8 sm:mb-12 lg:mb-28">
           <div className="mb-4">
             <img
               src={Icon}
@@ -50,43 +50,46 @@ const Wedding = () => {
           </span>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-stretch justify-between bg-[#F2F2F2] mx-4 sm:mx-6 lg:mx-20 gap-6 sm:gap-8">
-          <div className="lg:w-1/2">
-            <img
-              src={Wedding1}
-              alt="Clelia Romano"
-              className="w-full h-64 sm:h-80 lg:h-[30rem] object-contain"
-            />
+        <section className="bg-white flex justify-end ">
+          <div className="relative flex flex-col lg:flex-row items-stretch justify-between bg-[#F2F2F2] pl-20 pt-16 mx-4 sm:mx-6 lg:mx-20 gap-6 sm:gap-8 w-[65%]">
+            <div className="absolute top-18 lg:w-[35%]">
+              <img
+                src={Wedding1}
+                alt="Clelia Romano"
+                className="h-[500px] object-cover"
+              />
+            </div>
+
+            <div className="lg:w-[55%] h-full flex flex-col justify-center ml-auto px-4 sm:px-6 lg:pr-20 lg:pl-4 sm:pb-8">
+              <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
+                Insider Expertise
+              </p>
+
+              <h1 className="text-xl sm:text-2xl lg:text-[28px] font-bold mt-2 text-[#0A0024] leading-snug">
+                Meet Clelia Romano.
+              </h1>
+
+              <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] font-medium leading-relaxed">
+                Born in Rome and raised on romance, Clelia began her journey
+                planning her own wedding—and quickly discovered how costly and
+                confusing it can be for foreigners to navigate the wedding world
+                abroad. That experience became her mission: to make
+                extraordinary weddings not only possible, but personal and
+                accessible.
+              </p>
+
+              <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] font-medium leading-relaxed">
+                Clelia doesn’t just plan. She curates. With a warm heart, sharp
+                eye, and deeply rooted local relationships, she transforms
+                complex logistics into effortless beauty.
+              </p>
+
+              <p className="mt-8 sm:mb-4 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+                GET IN TOUCH WITH CLELIA
+              </p>
+            </div>
           </div>
-
-          <div className="lg:w-1/2 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 py-8 sm:py-10">
-            <p className="text-[#0A0024] text-[10px] sm:text-[11px] font-bold tracking-wide uppercase font-neutra">
-              Insider Expertise
-            </p>
-
-            <h1 className="text-xl sm:text-2xl lg:text-[28px] font-bold mt-2 text-[#0A0024] leading-snug">
-              Meet Clelia Romano.
-            </h1>
-
-            <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] leading-relaxed">
-              Born in Rome and raised on romance, Clelia began her journey
-              planning her own wedding—and quickly discovered how costly and
-              confusing it can be for foreigners to navigate the wedding world
-              abroad. That experience became her mission: to make extraordinary
-              weddings not only possible, but personal and accessible.
-            </p>
-
-            <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] leading-relaxed">
-              Clelia doesn’t just plan. She curates. With a warm heart, sharp
-              eye, and deeply rooted local relationships, she transforms complex
-              logistics into effortless beauty.
-            </p>
-
-            <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
-              GET IN TOUCH WITH CLELIA
-            </p>
-          </div>
-        </div>
+        </section>
       </section>
 
       <section className="bg-white flex flex-col md:flex-row w-full h-auto md:p-8 lg:p-20">

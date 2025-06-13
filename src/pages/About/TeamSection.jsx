@@ -54,7 +54,7 @@ export default function TeamSection() {
   const active = teamData[activeIndex];
 
   return (
-    <section className="relative bg-[#0A0024] text-white pt-20 pb-20 md:px-24 font-berlingske">
+    <section className="relative bg-[#0A0024] text-white py-28 sm:h-[50rem] md:px-24 font-berlingske">
       <div className="text-center mb-14">
         <p className="text-xs tracking-widest uppercase font-neutra">
           Dedicated Divisions

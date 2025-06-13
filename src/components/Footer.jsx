@@ -3,7 +3,6 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import design from "@/assets/icons/design.svg";
 import main_logo_white from "@/assets/icons/header/main-logo-white.svg";
-import mini_logo_white from "@/assets/icons/header/mini-logo-white.svg";
 
 const Footer = () => {
   return (
@@ -17,13 +16,13 @@ const Footer = () => {
       <div className="px-6 sm:pl-28 flex flex-col">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 justify-between">
           {/* Logo */}
-          <div className="flex flex-col items-center lg:items-start lg:w-[300px]">
+          <div className="flex flex-col items-center lg:w-[300px]">
             <img
               src={main_logo_white}
               alt="Aquila Logo"
               className="w-[220px] sm:w-[280px] h-auto mb-2"
             />
-            <span className="tracking-[4px] text-[11px] mt-2 uppercase">
+            <span className="tracking-[4px] text-[11px] text-center mt-2 uppercase">
               Masterful Escapes
             </span>
           </div>
@@ -90,13 +89,13 @@ const Footer = () => {
 
 const FooterColumn = ({ title, items }) => (
   <div className="flex flex-col gap-1 md:gap-2 min-w-[140px]">
-    <h4 className="text-[#FF7338] text-[10px] md:text-[12px] tracking-[1.5px] uppercase mb-1">
+    <h4 className="text-[#FF7338] text-[10px] md:text-[12px] tracking-[1.5px] uppercase mb-4">
       {title}
     </h4>
     {items.map((item, idx) => (
       <span
         key={idx}
-        className="text-[10px] md:text-[12px] tracking-[1.5px] text-white uppercase hover:text-[#FF7338] cursor-pointer"
+        className="text-[10px] md:text-[12px] font-thin tracking-[1.5px] text-white uppercase hover:text-[#FF7338] cursor-pointer"
       >
         {item}
       </span>

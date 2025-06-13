@@ -20,7 +20,7 @@ const Wedding = () => {
       </section>
 
       <section className="font-berlingske py-8 sm:py-12 lg:py-20 px-4 sm:px-6 lg:px-0">
-        <div className="max-w-lg mx-auto mb-8 sm:mb-12 lg:mb-16">
+        <div className="max-w-lg flex flex-col gap-10 text-center mx-auto mb-8 sm:mb-12 lg:mb-16">
           <div className="mb-4">
             <img
               src={Icon}
@@ -28,23 +28,26 @@ const Wedding = () => {
               className="mx-auto w-6 sm:w-8 lg:w-10 h-6 sm:h-8 lg:h-10"
             />
           </div>
-          <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-gray-500 mb-2 font-neutra">
-            Elegant Escapes
-          </p>
-          <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
-            A love worth <br /> traveling for.
-          </h2>
-          <p className="text-sm sm:text-base lg:text-base">
-            At Aquila, a wedding is never just a ceremony—it is a symphony of
-            moments, delicately orchestrated across landscapes that leave you
-            breathless. We craft weddings in Italy and Spain that honor your
-            story, without the overwhelm or excess. Just meaning, magic, and
-            Mediterranean light.
-          </p>
 
-          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
-            Discover the Art of Destination Weddings
-          </p>
+          <span>
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] mb-2 font-neutra">
+              Elegant Escapes
+            </p>
+            <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
+              A love worth <br /> traveling for.
+            </h2>
+            <p className="text-sm sm:text-base lg:text-base font-medium">
+              At Aquila, a wedding is never just a ceremony—it is a symphony of
+              moments, delicately orchestrated across landscapes that leave you
+              breathless. We craft weddings in Italy and Spain that honor your
+              story, without the overwhelm or excess. Just meaning, magic, and
+              Mediterranean light.
+            </p>
+
+            <p className="mt-8 sm:mt-12 text-sm text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
+              Discover the Art of Destination Weddings
+            </p>
+          </span>
         </div>
 
         <div className="flex flex-col lg:flex-row items-stretch justify-between bg-[#F2F2F2] mx-4 sm:mx-6 lg:mx-20 gap-6 sm:gap-8">

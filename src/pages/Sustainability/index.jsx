@@ -40,74 +40,80 @@ const Sustainability = () => {
         </div>
       </section>
 
-      <section className=" mt-12 sm:mt-16 md:mt-20 mb-12 font-berlingske px-4 sm:px-6 md:px-20">
-        <div className="flex flex-col lg:flex-row items-stretch justify-between bg-[#EDF5FC] mx-auto gap-8">
-          {/* Image Section */}
-          <div className="lg:w-1/2">
+      <section className="mt-8 sm:mt-12 lg:mt-20 mb-8 sm:mb-12 lg:mb-20 font-berlingske sm:px-6 lg:px-20">
+        <div className="flex flex-col lg:flex-row items-center justify-start bg-[#EDF5FC] mx-auto gap-6 sm:gap-24">
+          <div className="md:w-[60%] w-full h-64 sm:h-80 md:h-[35rem]">
             <img
               src={Sustainability1}
               alt="Luxury Travel Container"
-              className="w-full h-[30rem] object-cover"
+              className="w-full h-full object-cover"
             />
           </div>
 
           {/* Text Section */}
-          <div className="lg:w-1/2 h-full flex flex-col justify-center pr-20 pl-4 py-10">
-            <p className="text-[#0A0024] text-[11px] font-bold tracking-wide uppercase font-neutra">
+          <div className="lg:w-1/3 h-full flex flex-col justify-center px-4 sm:px-6 lg:pr-20 lg:pl-4 pt-8 sm:pt-10">
+            <p className="text-[#0A0024] text-[10px] sm:text-[11px] tracking-wide uppercase font-neutra">
               SUSTAINABILITY
             </p>
 
-            <h1 className="text-[28px] mt-2 text-[#0A0024] leading-snug">
-              Beauty that endures.
+            <h1 className="text-xl sm:text-2xl lg:text-[28px] font-bold mt-2 text-[#0A0024] leading-snug">
+              Beauty <br />
+              that endures.
             </h1>
 
-            <p className="mt-5 text-[16px] text-[#0A0024]leading-relaxed">
+            <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] leading-relaxed">
               Luxury begins with respect — for the land, for the life it holds,
               and for the quiet bonds between them. At Aquila, we believe true
               travel leaves no mark but meaning.
             </p>
 
-            <p className="mt-5 text-[16px] text-[#0A0024]leading-relaxed">
-              Every experience we create honors the places that inspire it — not
-              only through elegance, but through care.
+            <p className="mt-4 sm:mt-5 text-sm sm:text-[16px] text-[#0A0024] leading-relaxed">
+              Every experience we create honors the places that <br /> inspire
+              it — not only through elegance, but through care.
             </p>
 
-            <p className="mt-12 text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+            <p className="mt-8 sm:mt-5 text-sm sm:text-[16px] text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
               Start a Thoughtful Journey
             </p>
           </div>
         </div>
       </section>
 
-      <section className="text-center py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-0">
-        <div className="max-w-2xl mx-auto mb-10 sm:mb-16">
+      <section className="font-berlingske py-8 sm:py-12 lg:py-20 px-4 sm:px-6 lg:px-0">
+        <div className="max-w-lg flex flex-col gap-10 text-center mx-auto mb-8 sm:mb-12 lg:mb-28">
           <div className="mb-4">
             <img
               src={Icon}
               alt="Icon"
-              className="mx-auto w-8 sm:w-10 md:w-10 h-8 sm:h-10 md:h-10"
+              className="mx-auto w-6 sm:w-8 lg:w-10 h-6 sm:h-8 lg:h-10"
             />
           </div>
-          <p className="uppercase text-xs tracking-[1.6px] text-gray-500 mb-2 font-neutra">
-            Lasting Principles
-          </p>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 font-berlingske">
-            Preserving <br /> what moves us.
-          </h2>
-          <p className="text-sm sm:text-base md:text-base">
-            Sustainability, to us, is not a gesture — it’s a mindset. One
-            stitched into every detail we design. From the properties we choose
-            to the routes we recommend, each decision reflects a commitment to
-            protect what makes the journey meaningful.
-          </p>
-          <p className="text-sm sm:text-base md:text-base mt-4">
-            We are proudly certified with the Biosphere Sustainable Lifestyle
-            2025 — a recognition of our ongoing dedication to cultural respect,
-            environmental balance, and considered hospitality.
-          </p>
+
+          <span>
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] mb-2 font-neutra">
+              Lasting Principles
+            </p>
+
+            <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
+              Preserving <br /> what moves us.
+            </h2>
+
+            <p className="text-sm sm:text-base lg:text-base font-medium">
+              Sustainability, to us, is not a gesture — it’s a mindset. One
+              stitched into every detail we design. From the properties we
+              choose to the routes we recommend, each decision reflects a
+              commitment to protect what makes the journey meaningful.
+            </p>
+
+            <p className="text-sm sm:text-base lg:text-base font-medium mt-4">
+              We are proudly certified with the Biosphere Sustainable Lifestyle
+              2025 — a recognition of our ongoing dedication to cultural
+              respect, environmental balance, and considered hospitality.
+            </p>
+          </span>
         </div>
 
-        <div className="mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-10 px-4 sm:px-6 md:px-20">
+        <div className="mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-20 px-4 sm:px-6 md:px-20">
           <div className="md:w-full">
             <img
               src={Sustainability2}
@@ -118,28 +124,27 @@ const Sustainability = () => {
 
           <div className="md:w-1/2 text-left font-berlingske">
             <p className="uppercase text-xs tracking-[1.6px] mb-2 font-neutra">
-              Curated Experiences
+              Thoughtful Action
             </p>
+
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
-              Journeys Without Barriers. <br /> Stories Without Limits.
+              Stewardship <br /> in motion.
             </h3>
-            <p className="text-sm sm:text-base md:text-base mb-4">
-              From silent alpine lodges in the Swiss peaks to sun-washed Amalfi
-              villas reimagined for ease, every Aquila experience is shaped by
-              both beauty and understanding.
+
+            <p className="text-sm sm:text-base md:text-base mb-4 font-medium">
+              Aquila’s itineraries are shaped with longevity in mind. <br /> We
+              support regenerative stays, low-impact travel, and partnerships
+              that give back to their landscapes.
             </p>
-            <p className="text-sm sm:text-base md:text-base mb-6">
-              Whether you’re drifting along Mediterranean cliffs with discreet
-              support, exploring Parisian galleries with sensory-inclusive
-              interpretation, or arriving at destinations where access is never
-              an afterthought — we create travel that quietly adjusts to you.
-              Each itinerary is a composition of elegance, simplicity, and
-              possibility.
+
+            <p className="text-sm sm:text-base md:text-base mb-6 font-medium">
+              From plastic-free coastlines in Portugal to heritage vineyards in
+              Tuscany, our escapes are as responsible as they are remarkable.
             </p>
+
             <a
               href="#"
               className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
-              aria-label="Start planning your curated escape"
             >
               Start planning your escape
             </a>
@@ -149,22 +154,22 @@ const Sustainability = () => {
 
       <section className="bg-white flex flex-col md:flex-row w-full h-auto md:p-20">
         {/* Text */}
-        <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-28 flex items-center">
+        <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-32 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-4 font-neutra">
+            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-2 font-neutra">
               Shared Purpose
             </p>
 
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-7">
               In trusted <br className="hidden md:block" />
               company.
             </h3>
 
             <p className="text-sm sm:text-base md:text-base text-white mb-4 leading-relaxed">
-              We collaborate with a select circle of partners who share our
-              standards of care — from family-run eco-estates to
-              conservation-led foundations. These are not partnerships of
-              convenience, but of conviction.
+              We collaborate with a select circle of <br /> partners who share
+              our standards of care <br /> — from family-run eco-estates <br />
+              to conservation-led foundations. These are <br /> not partnerships
+              of convenience, but of <br /> conviction.
             </p>
 
             <a
@@ -178,7 +183,7 @@ const Sustainability = () => {
         </div>
 
         {/* Image */}
-        <div className="md:w-1/2 w-full h-64 sm:h-80 md:h-auto">
+        <div className="md:w-[70%] w-full h-64 sm:h-80 md:h-auto">
           <img
             src={Sustainability3}
             alt="Accessibility Mountain Experience"

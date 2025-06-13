@@ -111,14 +111,17 @@ const Accessible = () => {
             <p className="uppercase text-xs tracking-[1.6px] mb-2 font-neutra">
               Curated Experiences
             </p>
+
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
               Journeys Without Barriers. <br /> Stories Without Limits.
             </h3>
+
             <p className="text-sm sm:text-base md:text-base mb-4 font-medium">
               From silent alpine lodges in the Swiss peaks to sun- <br />
-              washed Amalfi villas reimagined for ease, every Aquila <br />{" "}
+              washed Amalfi villas reimagined for ease, every Aquila <br />
               experience is shaped by both beauty and <br /> understanding.
             </p>
+
             <p className="text-sm sm:text-base md:text-base mb-6 font-medium">
               Whether you’re drifting along Mediterranean cliffs <br /> with
               discreet support, exploring Parisian galleries <br /> with
@@ -128,6 +131,7 @@ const Accessible = () => {
               itinerary is a composition of elegance, simplicity, and <br />
               possibility.
             </p>
+
             <a
               href="#"
               className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"

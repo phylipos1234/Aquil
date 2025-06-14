@@ -16,7 +16,7 @@ import TeamSection from "./TeamSection";
 
 const About = () => {
   return (
-    <div className="text-gray-800">
+    <div className="">
       <section
         className="relative bg-cover bg-center h-[50vh] sm:h-[70vh] md:h-[100vh] flex items-center justify-center text-white"
         style={{ backgroundImage: `url(${AboutBanner})` }}
@@ -27,7 +27,7 @@ const About = () => {
       <div className="bg-[#0A0024] py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-6 text-center text-white font-berlingske">
         <div className="max-w-lg mx-auto flex flex-col gap-6">
           <span>
-            <p className="text-[10px] tracking-widest uppercase text-[#b3b3b3] mb-2 font-neutra">
+            <p className="text-[10px] tracking-widest uppercase mb-2 font-neutra">
               Quiet Excellence
             </p>
             <h2 className="text-xl sm:text-3xl md:text-3xl font-medium mb-6 leading-tight">

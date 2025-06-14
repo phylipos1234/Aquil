@@ -107,13 +107,13 @@ export default function TeamSection() {
 
         {/* Text Section */}
         <div className="w-[50%] md:ml-[35rem] mt-0">
-          <p className="text-[10px] font-neutra uppercase tracking-widest text-gray-300 mb-2">
+          <p className="text-[10px] font-neutra uppercase tracking-widest mb-2">
             {active.label}
           </p>
           <h3 className="text-md md:text-xl font-semibold mb-4">
             {active.name}
           </h3>
-          <p className="text-xs md:text-sm text-gray-300 leading-relaxed max-w-xl">
+          <p className="text-xs md:text-sm leading-relaxed max-w-xl">
             {active.description}
           </p>
           <button className="text-xs md:text-sm text-orange-400 mt-6 hover:underline uppercase font-neutra">

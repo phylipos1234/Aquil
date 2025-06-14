@@ -172,13 +172,9 @@ const Sustainability = () => {
               of convenience, but of <br /> conviction.
             </p>
 
-            <a
-              href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
-              aria-label="Speak to a travel curator"
-            >
+            <p className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline font-neutra">
               Speak to a Curator
-            </a>
+            </p>
           </div>
         </div>
 

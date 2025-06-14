@@ -171,13 +171,10 @@ const Accessible = () => {
               elevation — only revealed in how seamlessly it’s <br />
               offered.
             </p>
-            <a
-              href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
-              aria-label="Speak to a travel curator"
-            >
+
+            <p className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline font-neutra">
               Speak to a curator
-            </a>
+            </p>
           </div>
         </div>
 

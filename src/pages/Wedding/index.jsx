@@ -252,7 +252,7 @@ const Wedding = () => {
             something unforgettable.
           </p>
 
-          <p className="mt-8 sm:mt-12 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+          <p className="mt-8 sm:mt-12 text-xs tracking-widest text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
             Book Your Consultation
           </p>
         </div>

@@ -9,19 +9,23 @@ const Trip_Planner = () => {
         {/* Text Section - Left */}
         <div className="lg:w-1/2 w-full flex items-center text-left text-[#0A0024] py-10 px-6 sm:px-8 lg:px-10">
           <div>
-            <p className="text-[#FF7338] text-xs font-neutra tracking-widest uppercase mb-2">
+            <p className=" text-[12px] leading-[19px] tracking-[1.56px] align-middle uppercase mb-2" >
               Trip Planner
             </p>
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-bold leading-snug mb-4">
-              Your luxury travel, expertly designed around you.
-            </h2>
-            <p className="text-[14px] sm:text-[16px] leading-relaxed mb-4">
+            <p className="font-berlingske text-[36px] leading-[44px] tracking-normal align-middle font-semibold mb-2">
+              Your luxury travel, expertly
+            </p>
+            <p className="font-berlingske text-[36px] leading-[44px] tracking-normal align-middle font-semibold mb-4">
+             designed around you.
+            </p>
+            <p className= "font-berlingske text-[20px] leading-[28px] tracking-[0.01em] align-middle  mb-4 font-normal"
+            >
               Luxury begins with personalization. At Aquila, every itinerary is meticulously crafted by our luxury travel concierge, ensuring each detail aligns perfectly with your aspirations.
             </p>
-            <p className="text-[14px] sm:text-[16px] leading-relaxed mb-8">
+            <p className="font-berlingske text-[20px] leading-[28px] tracking-[0.01em] align-middle  mb-8 font-normal">
               Our team of luxury travel experts simplifies the planning process, handling every nuance seamlessly, allowing you to savor the anticipation of extraordinary journeys ahead, confident that every moment will be impeccably executed.
             </p>
-            <p className="text-[#FF7338] font-neutra text-sm cursor-pointer hover:underline">
+            <p className="text-[#FF7338] font-neutra text-[15px] leading-[19px] tracking-[1.56px] align-middle  uppercase">
               START PLANNING YOUR ESCAPE
             </p>
           </div>

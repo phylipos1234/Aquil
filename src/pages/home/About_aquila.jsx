@@ -16,15 +16,18 @@ const About_aquila = () => {
 
         {/* Text content */}
         <div className="w-full max-w-[571px] mx-auto">
-          <p className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-2">
+        <p className="font-neutra text-[#1A2142] text-[12px] leading-[19px] tracking-[1.56px] align-middle uppercase">
             About Aquila
           </p>
-          <h3 className="text-3xl text-gray-800 leading-tight font-bold">
-            Tailored luxury, thoughtfully crafted.
-          </h3>
+          <p className="font-berlingske font-semibold text-[36px] text-[#0A0024] leading-[44px] tracking-[0%] text-center align-middle">
+            Tailored luxury, 
+          </p>
+          <p className="font-berlingske font-semibold text-[36px] text-[#0A0024] leading-[44px] tracking-[0%] text-center align-middle">
+          thoughtfully crafted.
+          </p>
         </div>
 
-        <p className="text-lg w-full max-w-[571px] mx-auto mt-4 text-[#0A0024]">
+        <p className="font-berlingske text-[20px] text-[#0A0024] leading-[28px] tracking-[0.01em] text-center align-middle">
           At Aquila, we believe that true luxury lies in meticulous detail. From carefully designed luxury travel experiences to perfectly personalized luxury escape locations, every journey with Aquila is thoughtfully curated to surpass expectations.
           <br />
           <br />
@@ -41,18 +44,21 @@ const About_aquila = () => {
 
         {/* Text part */}
         <div className="lg:w-1/3 w-full pl-0 lg:pl-6">
-          <p className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-2 font-berlingske">
+          <p className="font-neutra text-[#1A2142] text-[12px] leading-[19px] tracking-[1.56px] align-middle uppercase">
             About Aquila
           </p>
-          <h2 className="text-2xl text-gray-800 mb-4 font-bold">
-            Unforgettable moments, impeccably crafted.
-          </h2>
-          <h3 className="text-md text-[#0A0024]">
+          <p className="font-berlingske font-semibold text-[36px] text-[#1A2142] leading-[44px] tracking-[0em] align-middle">
+            Unforgettable moments,
+          </p>
+          <p className="font-berlingske font-semibold text-[36px] text-[#1A2142] leading-[44px] tracking-[0em] align-middle">
+          impeccably crafted.
+          </p>
+          <p className="font-berlingske font-normal text-[20px] leading-[28px] tracking-[0.01em] align-middle text-[#0A0024]">
             Our philosophy is simple: every traveler deserves experiences as unique as their own story. Combining our profound expertise, exclusive connections, and unwavering dedication to personalization, we craft journeys that seamlessly blend sophistication, adventure, and authenticity.
             <br /><br />
             From the sunlit shores of Spain’s hidden coves to the refined elegance of a villa in the South of France, every Aquila experience is carefully tailored to exceed your expectations. Let us handle every detail, while you savor moments that become memories worth cherishing forever.
-          </h3>
-          <p className='mt-8 text-[#FF7338] text-[15px]'>DISCOVER MORE</p>
+          </p>
+          <p className='mt-8 text-[#FF7338] font-neutra  text-[15px] leading-[19px] tracking-[0.0975em] uppercase align-middle'>DISCOVER MORE</p>
         </div>
       </div>
     </div>

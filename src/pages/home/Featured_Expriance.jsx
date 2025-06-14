@@ -5,35 +5,45 @@ const tabs = {
   wonder: {
     title: 'Wonder',
     description: `
-      Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.
+     Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.<br /><br />
+
+From the enchanting shores of secluded Mediterranean islands to the awe-inspiring landscapes of rugged mountain ranges, each journey is carefully orchestrated, offering immersive experiences that stir your sense of wonder and fulfill your spirit of adventure.
 `,
     image: wonderImage,
   },
   celebrate: {
     title: 'Celebrate',
     description: `
-      Celebrate life’s special moments with bespoke luxury experiences designed to make every celebration unforgettable.
+   Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.<br /><br />
+
+From the enchanting shores of secluded Mediterranean islands to the awe-inspiring landscapes of rugged mountain ranges, each journey is carefully orchestrated, offering immersive experiences that stir your sense of wonder and fulfill your spirit of adventure.
 `,
     image: wonderImage,
   },
   connect: {
     title: 'Connect',
     description: `
-      Connect with the world on a deeper level. Explore cultural, enriching journeys that allow you to bond with people, places, and traditions.
+Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.<br /><br />
+
+From the enchanting shores of secluded Mediterranean islands to the awe-inspiring landscapes of rugged mountain ranges, each journey is carefully orchestrated, offering immersive experiences that stir your sense of wonder and fulfill your spirit of adventure.
 `,
     image: wonderImage,
   },
   savor: {
     title: 'Savor',
     description: `
-      Savor life’s finest moments with curated culinary experiences and indulgent getaways that leave you with memories to cherish forever.
+    Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.<br /><br />
+
+From the enchanting shores of secluded Mediterranean islands to the awe-inspiring landscapes of rugged mountain ranges, each journey is carefully orchestrated, offering immersive experiences that stir your sense of wonder and fulfill your spirit of adventure.
 `,
     image: wonderImage,
   },
   reset: {
     title: 'Reset',
     description: `
-      Reset and recharge with serene escapes that allow you to unwind and rediscover peace and tranquility in luxurious surroundings.
+     Step into a world of discovery with bespoke travel adventures. Explore hand-picked destinations celebrated for their unmatched charm, stunning landscapes, and hidden gems that promise exceptional memories.<br /><br />
+
+From the enchanting shores of secluded Mediterranean islands to the awe-inspiring landscapes of rugged mountain ranges, each journey is carefully orchestrated, offering immersive experiences that stir your sense of wonder and fulfill your spirit of adventure.
 `,
     image: wonderImage,
   },
@@ -49,35 +59,42 @@ const Featured_Expriance = () => {
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 text-center">
           {/* Heading */}
           <div className="w-full sm:w-[540px] mx-auto mb-10 sm:mb-12">
-            <p className="text-white text-sm sm:text-base mt-6">FEATURED EXPERIENCES</p>
-            <h2 className="text-white text-2xl sm:text-4xl font-bold mt-2">
-              Explore our signature journeys.
-            </h2>
+            <p className="font-neutraface font-semibold text-[12px] leading-[19px] tracking-[0.0975em] uppercase text-center align-middle text-[#F2F2F2] mt-6">FEATURED EXPERIENCES</p>
+            <p className="text-[#FFFFFF] font-neutra font-semibold text-[36px] leading-[44px] tracking-[0em] text-center align-middle mt-2">
+              Explore our signature 
+            </p>
+            <p className="text-[#FFFFFF] font-berlingske font-semibold text-[36px] leading-[44px] tracking-[0em] text-center align-middle mt-1">
+            journeys.
+            </p>
           </div>
 
           {/* Subheading */}
-          <h5 className="text-white text-sm sm:text-base max-w-2xl mx-auto mb-6 sm:mb-8">
-            Each Aquila experience embraces our core philosophy—luxury tailored around you.
-            Discover a collection of carefully selected luxury adventure travel, immersive escapes,
-            and elegant experiences designed to inspire and captivate.
-          </h5>
+          <div class="w-full flex justify-center">
+            <div class="flex items-center justify-center w-[793px] h-[62px] mb-4">
+              <p className="text-[#FFFFFF] font-berlingske font-extralight text-[20px] leading-[28px] tracking-[0.01em] text-center align-middle">
+                Each Aquila experience embraces our core philosophy—luxury tailored around you.
+                Discover a collection of carefully selected luxury adventure travel, immersive escapes,
+                and elegant experiences designed to inspire and captivate.
+              </p>
+            </div>
+          </div>
 
           {/* CTA */}
-          <p className="text-[#FF7338] text-sm sm:text-base font-neutra mt-2">
+          <p className="text-[#FF7338] font-neutra font-normal text-[15px] leading-[19px] tracking-[0.0975em] text-center align-middle uppercase mt-2">
             Request A Featured Experience
           </p>
 
           {/* Tabs */}
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-8 md:gap-12 mt-8 sm:mt-10">
+          <div className="flex flex-wrap justify-center gap-32 sm:gap-16 md:gap-24 mt-10 sm:mt-14">
             {Object.keys(tabs).map((tab) => (
               <p
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`cursor-pointer text-sm sm:text-base font-neutra capitalize px-2 py-1 border-b-2 transition-colors
+                className={`cursor-pointer font-neutra  text-[18.13px] leading-[26px] tracking-[0.5px] uppercase px-6 py-3 border-b-2 transition-colors
                   ${
                     activeTab === tab
-                      ? 'border-[#FF7338] text-white'
-                      : 'border-transparent text-white opacity-70 hover:opacity-100'
+                      ? 'border-[#FF7338] text-[#FFFFFF]'
+                      : 'border-transparent text-[#FFFFFF]'
                   }`}
               >
                 {tabs[tab].title}
@@ -85,25 +102,26 @@ const Featured_Expriance = () => {
             ))}
           </div>
 
-          <div className="h-[1px] bg-[#FFFFFF66] w-full my-6 sm:my-8" />
+          <div className="h-[1px] bg-[#FFFFFF66] w-full my-3 sm:my-8" />
 
           {/* Tab Content */}
-          <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-8 sm:gap-16 text-left relative z-10 px-4">
+          <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-evenly gap-8 sm:gap-16 text-left relative z-10 px-4">
             {/* Text Section */}
             <div className="text-white w-full md:w-1/2 mt-6 md:mt-0 space-y-3 sm:space-y-4">
-              <p className="font-neutra font-semibold text-xs sm:text-sm tracking-[1.5px] uppercase">
+              <p className="font-neutra text-[#FFFFFF] font-inter text-[12px] leading-[19px] tracking-[1.56px] uppercase align-middle">
                 Meaningful Milestones
               </p>
-              <p className="font-berlingske font-semibold text-2xl sm:text-3xl leading-snug">
+              <p className="font-berlingske text-[#FFFFFF] font-inter font-semibold text-[36px] leading-[44px] tracking-normal align-middle">
                 Endless
               </p>
-              <p className="font-berlingske font-semibold text-2xl sm:text-3xl leading-snug">
+              <p className="font-berlingske text-[#FFFFFF] font-inter font-semibold text-[36px] leading-[44px] tracking-normal align-middle">
                 discovery.
               </p>
-              <p className="font-berlingske font-extralight text-sm sm:text-lg leading-relaxed whitespace-pre-line">
-                {tabs[activeTab].description.trim()}
-              </p>
-              <p className="font-neutra font-semibold text-sm sm:text-base tracking-[1.5px] uppercase text-[#FF7338]">
+              <p
+                className=" font-berlingske font-light text-[#FFFFFF] text-[20px] leading-[28px] tracking-[0.01em] align-middle mb-20"
+                dangerouslySetInnerHTML={{ __html: tabs[activeTab].description.trim() }}
+              />
+              <p className="font-neutra text-left text-[15px] leading-[19px] tracking-[1.56px] uppercase align-middle text-[#FF7338] mt-20">
                 START PLANNING YOUR ESCAPE
               </p>
             </div>
@@ -117,6 +135,7 @@ const Featured_Expriance = () => {
               />
             </div>
           </div>
+
         </div>
       </div>
 

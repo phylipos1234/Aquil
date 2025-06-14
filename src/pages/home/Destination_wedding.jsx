@@ -17,22 +17,22 @@ const Destination_wedding = () => {
 
         {/* Text Section */}
         <div className="lg:w-1/2 w-full h-full flex flex-col justify-center px-4 sm:px-6 lg:px-10 py-10 text-[#0A0024]">
-          <p className="text-[#0A0024] text-sm sm:text-base font-neutra tracking-wider mb-2">
+          <p className="text-[#0A0024] font-neutra text-[12px] leading-[19px] tracking-[1.56px] uppercase align-middle mb-2">
             DESTINATION WEDDING
           </p>
-          <p className="text-3xl sm:text-4xl leading-snug text-[#0A0024] font-berlingske mb-4">
+          <p className="font-semibold text-[36px] leading-[44px] tracking-[0em] align-middle font-berlingske text-[#0A0024] mb-2">
             Your love story,
           </p>
-          <p className="text-3xl sm:text-4xl leading-snug text-[#0A0024] font-berlingske mb-4">
+          <p className="font-berlingske font-semibold text-[36px] leading-[44px] tracking-[0em] align-middle text-[#0A0024] mb-4">
             magnificently told.
           </p>
-          <p className="text-base sm:text-lg md:text-xl leading-relaxed font-berlingske tracking-wide mb-5">
+          <p className="font-berlingske font-normal text-[20px] leading-[28px] tracking-[0.01em] align-middle text-[#0A0024] mb-5">
             Celebrate love with the unparalleled elegance and sophistication of Aquila’s destination weddings. From intimate gatherings in romantic, hidden villas to lavish celebrations in world-renowned venues, our meticulous attention ensures your special day is flawlessly executed.
           </p>
-          <p className="text-base sm:text-lg md:text-xl leading-relaxed font-berlingske tracking-wide mb-8">
+          <p className="font-berlingske font-normal text-[20px] leading-[28px] tracking-[0.01em] align-middle text-[#0A0024] mb-8">
             Every moment is designed around your dreams—exceptional locations, exquisite details, and a commitment to perfection. Entrust your vision to our wedding specialists, and together we'll create a day that's authentically yours, undeniably luxurious, and utterly unforgettable.
           </p>
-          <p className="text-sm sm:text-base md:text-lg text-[#FF7338] leading-[19px] font-neutra cursor-pointer hover:underline">
+          <p className=" text-[15px] leading-[19px] tracking-[1.56px] uppercase align-middle font-neutra text-[#FF7338]">
             BEGIN YOUR WEDDING JOURNEY <span className="ml-2 sm:ml-6">LEARN MORE</span>
           </p>
         </div>

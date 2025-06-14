@@ -29,7 +29,7 @@ const Designing_Luxury = () => {
       Discover hidden gems and authentic narratives that elevate your understanding and appreciation of sophisticated travel, providing endless inspiration and enriching your journey experiences.
       </p>
 
-      <p className="mt-8 sm:mt-12 text-[15px] font-neutra leading-[19px] fonttracking-[0.0975em] font-semibold text-[#FF7338] text-center uppercase">
+      <p className="mt-8 sm:mt-12 text-[15px] font-neutra leading-[19px] fonttracking-[0.0975em]  text-[#FF7338] text-center uppercase">
       EXPLORE YOUR JOURNAL      </p>
     </div>
   </section>

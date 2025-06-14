@@ -38,7 +38,7 @@ const Preparation = () => {
           clients.
         </p>
 
-        <h1 className="text-xs sm:text-sm md:text-base text-[#FF7338] leading-[19px] font-neutra tracking-[1.2px] mt-6 font-semibold uppercase">
+        <h1 className="text-xs text-[#FF7338] leading-[19px] font-neutra font-thin tracking-widest mt-6 uppercase">
           Request Proposal
         </h1>
       </div>

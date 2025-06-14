@@ -58,7 +58,7 @@ const ProfessinalsMain = () => {
 
         {/* Second Image Row */}
         <div className="flex flex-col w-full items-center py-6 mt-6 gap-6">
-          <h1 className="text-xs md:text-sm text-[#FF7338] leading-5 font-neutra tracking-[1.56px]">
+          <h1 className="text-xs text-[#FF7338] leading-5 font-thin font-neutra tracking-widest uppercase">
             REQUEST A PERSONALIZED PROPOSAL
           </h1>
 

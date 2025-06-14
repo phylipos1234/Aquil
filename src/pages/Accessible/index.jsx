@@ -21,7 +21,7 @@ const Accessible = () => {
         <div className="mx-auto flex flex-col md:flex-row items-center gap-14">
           {/* Left Content */}
           <div className="md:w-1/3 text-left flex flex-col gap-5 font-berlingske">
-            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 font-neutra mb-2">
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white font-neutra mb-2">
               Accessible Tourism
             </p>
             <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4">
@@ -38,7 +38,7 @@ const Accessible = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your accessible escape"
             >
               START PLANNING YOUR ESCAPE
@@ -134,7 +134,7 @@ const Accessible = () => {
 
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your curated escape"
             >
               Start planning your escape
@@ -147,7 +147,7 @@ const Accessible = () => {
         {/* Text */}
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-28 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-2 font-neutra">
+            <p className="uppercase text-xs tracking-[1.6px] text-white mb-2 font-neutra">
               The Quiet Art of Inclusion
             </p>
 
@@ -173,7 +173,7 @@ const Accessible = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Speak to a travel curator"
             >
               Speak to a curator

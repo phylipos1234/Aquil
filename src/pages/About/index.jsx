@@ -50,14 +50,8 @@ const About = () => {
             </p>
           </div>
 
-          <p className="text-xs text-[#FF7338] uppercase tracking-widest font-thin font-neutra">
-            <a
-              href="#"
-              className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
-              aria-label="Request a personalized travel proposal"
-            >
-              Request a Personalized Proposal
-            </a>
+          <p className="text-xs tracking-widest text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
+            Request a Personalized Proposal
           </p>
         </div>
 
@@ -102,7 +96,7 @@ const About = () => {
                 tasting, the precision of a well-planned moment. This is how we
                 measure value—through quality, authenticity, and impact.
               </p>
-              <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-light cursor-pointer font-neutra">
+              <p className="mt-8 sm:mt-10 lg:mt-12 text-xs uppercase tracking-widest text-[#FF7338] font-light cursor-pointer font-neutra">
                 <a
                   href="#"
                   className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
@@ -181,7 +175,7 @@ const About = () => {
             every experience placed with purpose, and every detail handled with
             grace.
           </p>
-          <p className="mt-6 text-sm sm:text-base md:text-[14px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+          <p className="mt-6 text-xs uppercase tracking-widest text-[#FF7338] font-thin cursor-pointer font-neutra">
             <a
               href="#"
               className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"
@@ -240,7 +234,7 @@ const About = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="text-xs uppercase tracking-widest text-[#FF7338] font-thin cursor-pointer font-neutra"
               aria-label="Explore beyond any guidebook"
             >
               Go beyond any guidebook
@@ -320,7 +314,7 @@ const About = () => {
                 your peace of mind. Aquila’s global structure allows for
                 continuous care with a personal touch.
               </p>
-              <p className="mt-8 sm:mt-10 lg:mt-12 text-sm sm:text-base lg:text-[16px] text-[#FF7338] font-light cursor-pointer font-neutra">
+              <p className="mt-8 sm:mt-10 lg:mt-12 text-xs uppercase tracking-widest text-[#FF7338] font-thin cursor-pointer font-neutra">
                 <a
                   href="#"
                   className="hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338]"

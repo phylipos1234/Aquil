@@ -58,7 +58,7 @@ const About_aquila = () => {
             <br /><br />
             From the sunlit shores of Spain’s hidden coves to the refined elegance of a villa in the South of France, every Aquila experience is carefully tailored to exceed your expectations. Let us handle every detail, while you savor moments that become memories worth cherishing forever.
           </p>
-          <p className='mt-8 text-[#FF7338] font-neutra  text-[15px] leading-[19px] tracking-[0.0975em] uppercase align-middle'>DISCOVER MORE</p>
+          <p className='mt-8 text-[#FF7338] font-neutra  text-xs leading-[19px] tracking-widest uppercase align-middle'>DISCOVER MORE</p>
         </div>
       </div>
     </div>

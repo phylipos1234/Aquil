@@ -34,7 +34,7 @@ const Accessible_tourism = () => {
         </div>
 
         <div>
-          <p className="mt-12  text-[#FF7338] font-normal text-[15px] leading-[19px] tracking-[1.56px] text-center align-middle uppercase flex items-center justify-center">
+          <p className="mt-12  text-[#FF7338] font-thin text-xs leading-[19px] tracking-widest text-center align-middle uppercase flex items-center justify-center">
             Request a Personalized Proposal
           </p>
         </div>

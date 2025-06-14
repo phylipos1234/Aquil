@@ -1,10 +1,9 @@
-import React from 'react';
-import Design from '../../../../public/images/webinar/Rectangle 4812.png';
+import React from "react";
+import Design from "../../../../public/images/webinar/Rectangle 4812.png";
 
 const Designing_Luxury = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-start mt-10 mb-20 px-4 lg:px-0 lg:ml-52">
-      
       {/* Image on top for mobile, hidden on desktop */}
       <div className="block lg:hidden w-full mb-6">
         <img
@@ -37,13 +36,15 @@ const Designing_Luxury = () => {
         </p>
 
         <p className="text-[17px] text-[#0A0027] leading-[26px] font-berlingske tracking-[0.2px] w-[90%] lg:w-[70%]">
-          Unpack how to translate Aquila’s quiet luxury into compelling value for clients. Learn language, pricing strategy, and how to frame experiences that go beyond typical “luxury.”
+          Unpack how to translate Aquila’s quiet luxury into compelling value
+          for clients. Learn language, pricing strategy, and how to frame
+          experiences that go beyond typical “luxury.”
         </p>
 
         <p className="text-[#0A0027] text-[18px] mt-1">60 min</p>
         <p className="text-[#0A0027] text-[18px]">MAY 26, 2025</p>
 
-        <h1 className="text-[14px] text-[#FF7338] leading-[18px] font-neutra tracking-[1.56px] uppercase mt-1">
+        <h1 className="text-xs font-thin text-[#FF7338] leading-[18px] font-neutra tracking-widest uppercase mt-1">
           Request access
         </h1>
 

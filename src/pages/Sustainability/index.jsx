@@ -72,7 +72,7 @@ const Sustainability = () => {
               it — not only through elegance, but through care.
             </p>
 
-            <p className="mt-8 sm:mt-5 text-sm sm:text-[16px] text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
+            <p className="mt-8 sm:mt-5 text-xs tracking-widest text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
               Start a Thoughtful Journey
             </p>
           </div>
@@ -144,7 +144,7 @@ const Sustainability = () => {
 
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
             >
               Start planning your escape
             </a>
@@ -156,7 +156,7 @@ const Sustainability = () => {
         {/* Text */}
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 md:px-20 py-10 sm:py-16 md:py-32 flex items-center">
           <div className="max-w-xl mx-auto font-berlingske">
-            <p className="uppercase text-xs tracking-[1.6px] text-white/70 mb-2 font-neutra">
+            <p className="uppercase text-xs tracking-[1.6px] text-white mb-2 font-neutra">
               Shared Purpose
             </p>
 
@@ -174,7 +174,7 @@ const Sustainability = () => {
 
             <a
               href="#"
-              className="uppercase text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Speak to a travel curator"
             >
               Speak to a Curator

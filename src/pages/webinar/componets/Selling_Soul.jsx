@@ -1,10 +1,9 @@
-import React from 'react';
-import Selling from '../../../../public/images/webinar/Rectangle 4816.png';
+import React from "react";
+import Selling from "../../../../public/images/webinar/Rectangle 4816.png";
 
 const Selling_Soul = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-start mt-10 mb-20 px-4 lg:px-0 lg:ml-52">
-      
       {/* Image for small screens */}
       <div className="block lg:hidden w-full mb-6">
         <img
@@ -16,7 +15,6 @@ const Selling_Soul = () => {
 
       {/* Content Card */}
       <div className="relative flex flex-col gap-3 items-start text-left bg-[#EEF5FD] py-6 px-6 sm:px-10 lg:pl-16 w-full lg:w-[50%] min-h-[600px] z-20 justify-center">
-        
         {/* Right-side image for large screens only */}
         <img
           src={Selling}
@@ -49,13 +47,14 @@ const Selling_Soul = () => {
         </p>
 
         <p className="text-[17px] text-[#0A0027] leading-[26px] font-berlingske tracking-[0.2px] w-[90%] lg:w-[70%]">
-          Learn to sell destination weddings in Spain and Italy, highlighting their romance, logistics, and emotional appeal
+          Learn to sell destination weddings in Spain and Italy, highlighting
+          their romance, logistics, and emotional appeal
         </p>
 
         <p className="text-[#0A0027] text-[18px] mt-1">60 min</p>
         <p className="text-[#0A0027] text-[18px]">MAY 26, 2025</p>
 
-        <h1 className="text-[14px] text-[#FF7338] leading-[18px] font-neutra tracking-[1.56px] uppercase mt-1">
+        <h1 className="text-xs text-[#FF7338] font-thin leading-[18px] font-neutra tracking-widest uppercase mt-1">
           Request access
         </h1>
       </div>

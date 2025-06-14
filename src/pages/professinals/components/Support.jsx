@@ -82,7 +82,7 @@ const Support = () => {
           </div>
         </div>
 
-        <h1 className="text-sm md:text-[15px] text-[#FF7338] leading-[19px] font-neutra tracking-[1.56px] uppercase mt-6 md:mt-8">
+        <h1 className="text-xs text-[#FF7338] leading-[19px] font-thin font-neutra tracking-widest uppercase mt-6 md:mt-8">
           Request a Personalized Proposal
         </h1>
       </div>

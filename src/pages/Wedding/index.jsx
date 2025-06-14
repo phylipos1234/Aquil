@@ -37,7 +37,7 @@ const Wedding = () => {
             <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 font-berlingske">
               A love worth <br /> traveling for.
             </h2>
-            
+
             <p className="text-sm sm:text-base lg:text-base font-medium">
               At Aquila, a wedding is never just a ceremony—it is a symphony of
               moments, delicately orchestrated across landscapes that leave you
@@ -46,7 +46,7 @@ const Wedding = () => {
               Mediterranean light.
             </p>
 
-            <p className="mt-8 sm:mt-12 text-sm text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
+            <p className="mt-8 sm:mt-12 text-xs text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
               Discover the Art of Destination Weddings
             </p>
           </span>
@@ -88,7 +88,7 @@ const Wedding = () => {
                 complex logistics into effortless beauty.
               </p>
 
-              <p className="mt-8 mb-4 sm:mb-0 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+              <p className="mt-8 mb-4 sm:mb-0 text-xs text-[#FF7338] uppercase font-thin cursor-pointer font-neutra">
                 GET IN TOUCH WITH CLELIA
               </p>
             </div>
@@ -99,7 +99,7 @@ const Wedding = () => {
       <section className="bg-white flex flex-col md:flex-row w-full h-auto md:p-8 lg:p-20">
         <div className="bg-[#0a0024] text-white md:w-1/2 w-full px-4 sm:px-8 lg:px-20 py-8 sm:py-12 lg:py-24 flex items-center">
           <div className="mx-auto font-berlingske flex flex-col gap-3">
-            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 font-neutra">
+            <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] font-neutra">
               Tailored Elegance
             </p>
 
@@ -124,14 +124,10 @@ const Wedding = () => {
               chosen with care, not convenience.
             </p>
 
-            <a
-              href="#"
-              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra flex gap-10"
-              aria-label="Speak to a travel curator"
-            >
+            <p className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underlinefont-neutra flex gap-10">
               <span>Tell Us Your Vision</span>{" "}
               <span>Design Something Personal</span>
-            </a>
+            </p>
           </div>
         </div>
 
@@ -176,7 +172,7 @@ const Wedding = () => {
               mind.
             </p>
 
-            <p className="mt-8 sm:mt-5 text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer font-neutra">
+            <p className="mt-8 sm:mt-5 text-xs text-[#FF7338] font-thin uppercase cursor-pointer font-neutra">
               Access Our Trusted Network
             </p>
           </div>
@@ -187,7 +183,7 @@ const Wedding = () => {
         <div className="mx-auto flex flex-col md:flex-row items-center gap-14">
           <div className="md:w-1/3 text-left flex flex-col gap-5 font-berlingske">
             <span>
-              <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white/70 font-neutra mb-2">
+              <p className="uppercase text-[10px] sm:text-xs tracking-[1.6px] text-white font-neutra mb-2">
                 Personal Story
               </p>
               <h2 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4">
@@ -203,7 +199,7 @@ const Wedding = () => {
             </p>
             <a
               href="#"
-              className="uppercase text-[10px] sm:text-xs tracking-widest text-[#FF7338] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
+              className="uppercase text-xs tracking-widest text-[#FF7338] font-thin hover:underline focus:outline-none focus:ring-2 focus:ring-[#FF7338] font-neutra"
               aria-label="Start planning your accessible escape"
             >
               Craft Your Story

@@ -32,7 +32,7 @@ const DestinationCard = ({ image, title, subtitle, description }) => (
       </div>
       <p className="text-xs leading-relaxed">{description}</p>
 
-      <p className="mt-8  text-sm sm:text-[16px] text-[#FF7338] font-semibold cursor-pointer hover:underline font-neutra">
+      <p className="mt-8  text-xs text-[#FF7338] font-thin tracking-widest uppercase cursor-pointer hover:underline font-neutra">
         Explore
       </p>
     </div>
